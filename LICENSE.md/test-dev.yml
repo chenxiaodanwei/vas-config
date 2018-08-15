@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: eureka
+  cloud:
+      config:
+        server:
+          git:
+            uri: https://github.com/chenxiaodanwei/vas-config
+            username: 369612871@qq.com
+            password: github5731
+  eureka:
+  client:
+  service-url:
+  defaultZone: http://192.168.50.202:8761/eureka/
+server:
+  port: 8761
